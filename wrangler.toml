@@ -4,5 +4,5 @@ compatibility_date = "2024-01-01"
 
 [[kv_namespaces]]
 binding = "YOUTUBE_FEED_CACHE"
-id = "replace-with-production-kv-id"
-preview_id = "replace-with-preview-kv-id"
+id = "65fa36dc5e734defa3036a0b339ab762"
+preview_id = "73a37d4c56fd42c1be955e7fb2fe173a"
