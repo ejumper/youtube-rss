@@ -2,7 +2,7 @@ const FEED_CONFIGS = {
   // Add additional YouTube feeds here. Each key becomes the worker path segment.
   'cpscott16': {
     // Swap this feed URL for an rss-bridge channel feed or channel_id based feed as needed.
-    url: 'https://www.youtube.com/feeds/videos.xml?user=CPScott16'
+    url: 'https://www.youtube.com/feeds/videos.xml?user=UCO1ydt_TOAZfwEgJpgOx2jQ'
   }
 };
 
