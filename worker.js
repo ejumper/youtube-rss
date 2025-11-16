@@ -1,8 +1,8 @@
 const FEED_CONFIGS = {
   // Add additional YouTube feeds here. Each key becomes the worker path segment.
   'cpscott16': {
-    // Swap this feed URL for an rss-bridge channel feed or channel_id based feed as needed.
-    url: 'https://www.youtube.com/feeds/videos.xml?user=UCO1ydt_TOAZfwEgJpgOx2jQ'
+    channelId: 'UCO1ydt_TOAZfwEgJpgOx2jQ',
+    handle: 'CPScott16'
   }
 };
 
@@ -26,6 +26,7 @@ export default {
         ...FEED_CONFIGS[feedKey],
         cacheKey: `feed_${feedKey}`
       };
+      feedConfig.url = resolveYouTubeFeedUrl(feedConfig);
     } else {
       const feedUrl = url.searchParams.get('feed');
       if (!feedUrl) {
@@ -85,6 +86,10 @@ async function processFeed(config, env) {
   }
 
   if (!feedXml) {
+    if (!config.url) {
+      throw new Error('Feed URL is not configured.');
+    }
+
     const response = await fetch(config.url, {
       headers: {
         'User-Agent': 'YouTube-RSS-Embed-Worker/1.0 (Polite 6h cache)'
@@ -276,4 +281,15 @@ function createErrorResponse(message, status = 500) {
       'Access-Control-Allow-Origin': '*'
     }
   });
+}
+
+function resolveYouTubeFeedUrl(config) {
+  if (config.url) return config.url;
+  if (config.channelId) {
+    return `https://www.youtube.com/feeds/videos.xml?channel_id=${config.channelId}`;
+  }
+  if (config.handle) {
+    return `https://www.youtube.com/feeds/videos.xml?user=${config.handle}`;
+  }
+  return null;
 }
