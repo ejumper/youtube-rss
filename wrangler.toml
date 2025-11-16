@@ -1,0 +1,8 @@
+name = "youtube-rss-embed-worker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "YOUTUBE_FEED_CACHE"
+id = "replace-with-production-kv-id"
+preview_id = "replace-with-preview-kv-id"
