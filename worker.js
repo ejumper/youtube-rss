@@ -82,7 +82,8 @@ const FEED_CONFIGS = {
     channelId: 'UCJSJ0xIWf4e3hNu7KgYqPxg',
     handle: 'HallOfTechLLC'
   },
-  'landonsAnimationwheelhouse': {
+  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  'landonsanimationwheelhouse': {
     channelId: 'UC2WJrMmd_eNMqfWJbD_fq2A',
     handle: 'LandonsAnimationWheelhouse'
   },
@@ -130,7 +131,8 @@ const FEED_CONFIGS = {
     channelId: 'UCAAJCQ0FCqRmAEv95SyTfNg',
     handle: 'maklelan'
   },
-  'danReedermusic': {
+  //!!!!!!!!!!!!!!!!!!!!!!!!
+  'danreedermusic': {
     channelId: 'UCZQVGv2GGRSOeVTQMYoru2A',
     handle: 'DanReederMusic'
   },
@@ -142,7 +144,8 @@ const FEED_CONFIGS = {
     channelId: 'UCNzszbnvQeFzObW0ghk0Ckw',
     handle: 'DavesGarage'
   },
-  'drLoriv': {
+  //!!!!!!!!!!!!!!!!!!!!!!!!
+  'drloriv': {
     channelId: 'UCyld4DZKdnx-VcH0mqpOClg',
     handle: 'DrLoriV'
   },
@@ -150,6 +153,7 @@ const FEED_CONFIGS = {
     channelId: 'UCiflcKnh5cZiRWK7jlYKwxA',
     handle: 'ebnovels'
   },
+  //!!!!!!!!!!!!!!!!!!!!!!!!!
   'emmymade': {
     channelId: 'UC9-y-UCzqbfYjQmf9nLQPMxVgPhiA',
     handle: 'emmymade'
@@ -166,6 +170,7 @@ const FEED_CONFIGS = {
     channelId: 'UCwjz7_xH_1Sehw5W-qIDLeg',
     handle: 'FourKeysBookArts'
   },
+  //!!!!!!!!!!!!!!!!!!!!!!
   'geohussar': {
     channelId: 'UCEW-UCEW-70kkxTIsxPeXJtdVaeg',
     handle: 'GeoHussar'
@@ -194,7 +199,7 @@ const FEED_CONFIGS = {
     channelId: 'UC-L8bPaJ_aJznCLLtUHxnLA',
     handle: 'keds_economist'
   },
-  'lastWeektonight': {
+  'lastweektonight': {
     channelId: 'UC3XTzVzaHQEd30rQbuvCtTQ',
     handle: 'LastWeekTonight'
   },
