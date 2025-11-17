@@ -7,7 +7,123 @@ const FEED_CONFIGS = {
   '404mediaco': {
     channelId: 'UC7YMZb0X_W06ToOazhFuXIQ',
     handle: '404Mediaco'
-  }
+  },
+  'abettercomputer': {
+    channelId: 'UCGYdWR8QUYn88lG0PBeJQ_g',
+    handle: 'ABetterComputer'
+  },
+  'abetoday': {
+    channelId: 'UCUxIu91gGsK9Q0tTcQM8iNw',
+    handle: 'abetoday'
+  },
+  'hotweirdg0rl': {
+    channelId: 'UCy_2BeNSAZXkdFlxOLj-IuQ',
+    handle: 'hotweirdg0rl'
+  },
+  'roadshowpbs': {
+    channelId: 'UCdnJJ2_mzqHwKIX_SmCVHTA',
+    handle: 'RoadshowPBS'
+  },
+  'archdigest': {
+    channelId: 'UC0k238zFx-Z8xFH0sxCrPJg',
+    handle: 'Archdigest'
+  },
+  'artsy_story': {
+    channelId: 'UCfSzGVdNy8YndcAw9Fmij5A',
+    handle: 'artsy_story'
+  },
+  'atrocityguide': {
+    channelId: 'UCn8OYopT9e8tng-CGEWzfmw',
+    handle: 'AtrocityGuide'
+  },
+  'codingWithauryn': {
+    channelId: 'UChk4F4yBtP4i063wnJH8TIQ',
+    handle: 'CodingWithAuryn'
+  },
+  'austinkillsit': {
+    channelId: 'UCAmjevylPV9bYMV-pG_4YCg',
+    handle: 'austinkillsit'
+  },
+  'bekahdayyy': {
+    channelId: 'UC_wQixk-qE9uxyB9AwjENsA',
+    handle: 'bekahdayyy'
+  },
+  'palmertrolls': {
+    channelId: 'UCBp_JNTbVgZx_6DFxSSY-Hg',
+    handle: 'palmertrolls'
+  },
+  'BeckyStern': {
+    channelId: 'UCsI_41SZafKtB5qE46WjlQQ',
+    handle: 'BeckyStern'
+  },
+  'clemmygames': {
+    channelId: 'UCCd3jyJmOFzkJEMj5Bp89rw',
+    handle: 'clemmygames'
+  },
+  'bitluni': {
+    channelId: 'UCp_5PO66faM4dBFbFFBdPSQ',
+    handle: 'bitluni'
+  },
+  '_jared': {
+    channelId: 'UC2Kyj04yISmHr1V-UlJz4eg',
+    handle: '_jared'
+  },
+  'bleepingcomputer': {
+    channelId: 'UCTU0ZJQ8Lqslww0R9Xk0sJg',
+    handle: 'bleepingcomputer'
+  },
+  'mkbhd': {
+    channelId: 'UCBJycsmduvYEL83R_U4JriQ',
+    handle: 'mkbhd'
+  },
+  'halloftechllc': {
+    channelId: 'UCJSJ0xIWf4e3hNu7KgYqPxg',
+    handle: 'HallOfTechLLC'
+  },
+  'landonsAnimationwheelhouse': {
+    channelId: 'UC2WJrMmd_eNMqfWJbD_fq2A',
+    handle: 'LandonsAnimationWheelhouse'
+  },
+  'brickexperimentchannel': {
+    channelId: 'UClsFdM0HzTdF1JYoraQ0aUw',
+    handle: 'BrickExperimentChannelationWheelhouse'
+  },
+  'brick_crafts': {
+    channelId: 'UCTGHqw41qk_WyK3wJK7nweg',
+    handle: 'Brick_Crafts'
+  },
+  'brynoDC': {
+    channelId: 'UCNG4L6tzJq1i8gWkbmuMoiA',
+    handle: 'brynoDC'
+  },
+  'snaptocks': {
+    channelId: 'UCNG4L6tzJq1i8gWkbmuMoiA',
+    handle: 'snaptocks'
+  },
+  'filamentfriday': {
+    channelId: 'UCsdc_0ZTXikARFEn2dRDJhg',
+    handle: 'FilamentFriday'
+  },
+  'Chuntzit': {
+    channelId: 'UCghR6gNuBneEKkDuKtXQM4w',
+    handle: 'Chuntzit'
+  },
+  'ClickandThock': {
+    channelId: 'UCxsWMZAyUwT67nikED3sL_g',
+    handle: 'ClickandThock'
+  },
+  'CNET': {
+    channelId: 'UC9-y-6csu5WGm29I7JiwpnA',
+    handle: 'CNET'
+  },
+  'damileearch': {
+    channelId: 'UCJ_2hNMxOzNjviJBiLWHMqg',
+    handle: 'DamiLeeArch'
+  },
+  'danharumi1': {
+    channelId: 'UCVAgplWvY5nT90yI2Rq2HkA',
+    handle: 'danharumi1'
+  },
 };
 
 const DEFAULT_CONFIG = {
