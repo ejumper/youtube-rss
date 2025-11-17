@@ -4,7 +4,7 @@ const FEED_CONFIGS = {
     channelId: 'UCO1ydt_TOAZfwEgJpgOx2jQ',
     handle: 'CPScott16'
   },
-  '404Mediaco': {
+  '404mediaco': {
     channelId: 'UC7YMZb0X_W06ToOazhFuXIQ',
     handle: '404Mediaco'
   }
