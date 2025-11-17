@@ -124,6 +124,314 @@ const FEED_CONFIGS = {
     channelId: 'UCVAgplWvY5nT90yI2Rq2HkA',
     handle: 'danharumi1'
   },
+  'maklelan': {
+    channelId: 'UCAAJCQ0FCqRmAEv95SyTfNg',
+    handle: 'maklelan'
+  },
+  'danReedermusic': {
+    channelId: 'UCZQVGv2GGRSOeVTQMYoru2A',
+    handle: 'DanReederMusic'
+  },
+  'maklelan': {
+    channelId: 'UCAAJCQ0FCqRmAEv95SyTfNg',
+    handle: 'maklelan'
+  },
+  'davesgarage': {
+    channelId: 'UCNzszbnvQeFzObW0ghk0Ckw',
+    handle: 'DavesGarage'
+  },
+  'drLoriv': {
+    channelId: 'UCyld4DZKdnx-VcH0mqpOClg',
+    handle: 'DrLoriV'
+  },
+  'ebnovels': {
+    channelId: 'UCiflcKnh5cZiRWK7jlYKwxA',
+    handle: 'ebnovels'
+  },
+  'emmymade': {
+    channelId: 'UC9-y-UCzqbfYjQmf9nLQPMxVgPhiA',
+    handle: 'emmymade'
+  },
+  'etymology_nerd': {
+    channelId: 'UCNHb7I85BKnwbJF4fWBXJjA',
+    handle: 'etymology_nerd'
+  },
+  'feypop': {
+    channelId: 'UCgBvWtknPuHpVuytBgkiXyA',
+    handle: 'feypop'
+  },
+  'fourkeysbookarts': {
+    channelId: 'UCwjz7_xH_1Sehw5W-qIDLeg',
+    handle: 'FourKeysBookArts'
+  },
+    'geohussar': {
+    channelId: 'UCEW-UCEW-70kkxTIsxPeXJtdVaeg',
+    handle: 'GeoHussar'
+  },
+  'hqkay': {
+    channelId: 'UCnj_D0bV_fZ2p0BdBsUOcYA',
+    handle: 'HQKAY'
+  },
+  'ifixityourself': {
+    channelId: 'UCHbx9IUW7eCeJsC4sBCTNBA',
+    handle: 'iFixitYourself'
+  },
+  'democracynow': {
+    channelId: 'UCzuqE7-t13O4NIDYJfakrhw',
+    handle: 'DemocracyNow'
+  },
+  'jennynicholson': {
+    channelId: 'UC7-E5xhZBZdW-8d7V80mzfg',
+    handle: 'JennyNicholson'
+  },
+  'jerryrigeverything': {
+    channelId: 'UCWFKCr40YwOZQx8FHU_ZqqQ',
+    handle: 'JerryRigEverything'
+  },
+  'keds_economist': {
+    channelId: 'UC-L8bPaJ_aJznCLLtUHxnLA',
+    handle: 'keds_economist'
+  },
+  'lastWeektonight': {
+    channelId: 'UC3XTzVzaHQEd30rQbuvCtTQ',
+    handle: 'LastWeekTonight'
+  },
+  'learnlinuxtv': {
+    channelId: 'UCxQKHvKbmSzGMvUrVtJYnUA',
+    handle: 'LearnLinuxTV'
+  },
+  'limc': {
+    channelId: 'UCaHT88aobpcvRFEuy4v5Clg',
+    handle: 'LIMC'
+  },
+  'lorde': {
+    channelId: 'UCOxhwqKKlVq_NaD0LVffGuw',
+    handle: 'Lorde'
+  },
+  'matteolanecomedy': {
+    channelId: 'UC9-UCHtaXqDklDTydmwgLj5siMg-6csu5WGm29I7JiwpnA',
+    handle: 'matteolanecomedy'
+  },
+  'michael_tunnell': {
+    channelId: 'UCmyGZ0689ODyReHw3rsKLtQ',
+    handle: 'michael_tunnell'
+  },
+  'gremlita': {
+    channelId: 'UCoOss5XiPpnLHGmLrBvNkJg',
+    handle: 'gremlita'
+  },
+  'maklelan': {
+    channelId: 'UCsJ-VTlxYSKG-UVHa7K1Khw',
+    handle: 'maklelan'
+  },
+  'mk.gee_': {
+    channelId: 'UCsJ-VTlxYSKG-UVHa7K1Khw',
+    handle: 'mk.gee_'
+  },
+  'molesrcoool': {
+    channelId: 'UCNvIUYKjBXoMVcL0bTRUqhQ',
+    handle: 'molesrcoool'
+  },
+  'molly0xfff': {
+    channelId: 'UCJcWDNh9E6AoVW4nsMXyVCw',
+    handle: 'molly0xfff'
+  },
+  'moonsrarebooks': {
+    channelId: 'UCPCoaKCeqmWhCwCH5Ht7dQg',
+    handle: 'MoonsRareBooks'
+  },
+  'networkchuck': {
+    channelId: 'UC9x0AN7BWHpCDHSm9NiJFJQ',
+    handle: 'NetworkChuck'
+  },
+  'nikfromtiktok': {
+    channelId: 'UCOADp5jDxyAffcTNFvumbQA',
+    handle: 'NikFromTikTok'
+  },
+  'nprmusic': {
+    channelId: 'UC4eYXhJI4-7wSWc8UNRwD4A',
+    handle: 'nprmusic'
+  },
+  'oceanna_': {
+    channelId: 'UClFk1sJv-6eSJNHejjvf-6g',
+    handle: 'oceanna_'
+  },
+  'outlawbookselleroriginal': {
+    channelId: 'UCcpaYAc_kJbYBP66YQpxRnw',
+    handle: 'OfficeHoursLive'
+  },
+  'pingpingtechtalk': {
+    channelId: 'UCYNIKXaDBl8DZ5FyxFivXhg',
+    handle: 'PingPingTechTalk'
+  },
+  'jayduck9': {
+    channelId: 'UCB3gITkN1-LzFF_IpVanURQ',
+    handle: 'jayduck9'
+  },
+  'officehourslive': {
+    channelId: 'UCtS3BcCw-tITPFYSvkbP0Bg',
+    handle: 'OfficeHoursLive'
+  },
+  'drrachelbarr': {
+    channelId: 'UCC6wU8VRgIYizEjVvTdalMQ',
+    handle: 'DrRachelBarr'
+  },
+  'ramjad': {
+    channelId: 'UCLA7cJBnqr0nLF2bQBD9uUg',
+    handle: 'RAmjad'
+  },
+  'rebecca.romney': {
+    channelId: 'UC8_ejtUg86uwyerNtmx5D4g',
+    handle: 'rebecca.romney'
+  },
+  'rottenmangopod': {
+    channelId: 'UCZnXNjnBhrrmvx3eDO_2z9w',
+    handle: 'rottenmangopod'
+  },
+  'rottentomatoestrailers': {
+    channelId: 'UCi8e0iOVk1fEOogdfu4YgfA',
+    handle: 'RottenTomatoesTRAILERS'
+  },
+  'thesiliconsiren': {
+    channelId: 'UCC9uI0zEXkiRFgctyTLegRg',
+    handle: 'theSiliconSiren'
+  },
+  'simoncaine9515': {
+    channelId: 'UC0HAW8tgFA_xEmeUupuRwiA',
+    handle: 'simoncaine9515'
+  },
+  'StanWinstonSchool': {
+    channelId: 'UCnuYvkjI5C1HzYq9dfs2Nsg',
+    handle: 'OfficeHoursLive'
+  },
+  'sir_superhero': {
+    channelId: 'UCnuYvkjI5C1HzYq9dfs2Nsg',
+    handle: 'sir_superhero'
+  },
+  'stanwinstonschool': {
+    channelId: 'UC1rKAv7IwCeynqa9MPNfYaA',
+    handle: 'StanWinstonSchool'
+  },
+  'officehourslive': {
+    channelId: 'UCtS3BcCw-tITPFYSvkbP0Bg',
+    handle: 'OfficeHoursLive'
+  },
+  'stavvysworld': {
+    channelId: 'UCBVAaHkKSwfzee79b7SPyPw',
+    handle: 'stavvysworld'
+  },
+  'SwitchandClickOfficial': {
+    channelId: 'UCT6AJiTYspOILBK3hMWEq2g',
+    handle: 'SwitchandClickOfficial'
+  },
+  'jamelle-bouie': {
+    channelId: 'UCgDA-Or474NOdFEF8WF2yCA',
+    handle: 'jamelle-bouie'
+  },
+  'taramooknee': {
+    channelId: 'UCT5C7yaO3RVuOgwP8JVAujQ',
+    handle: 'TaraMooknee'
+  },
+  'taskmaster': {
+    channelId: 'UCT5C7yaO3RVuOgwP8JVAujQ',
+    handle: 'taskmaster'
+  },
+  'taylorlorenz': {
+    channelId: 'UCp38w5n099xkvoqciOaeFag',
+    handle: 'TaylorLorenz'
+  },
+  'theadamfriedlandshow': {
+    channelId: 'UC6ext5UAbrLT2e5y5BC6RTQ',
+    handle: 'TheAdamFriedlandShow'
+  },
+  'theboboyspodcast': {
+    channelId: 'UCtvC3nAHWPr6Ztc9PfB3eIA',
+    handle: 'theboboyspodcast'
+  },
+  'thedailyshow': {
+    channelId: 'UCUNOwz9KTDIhhTTN3_ptUDA',
+    handle: 'TheDailyShow'
+  },
+  'thegoodliars': {
+    channelId: 'UCUNOwz9KTDIhhTTN3_ptUDA',
+    handle: 'TheGoodLiars'
+  },
+  'katetheunreal': {
+    channelId: 'UCbORPu-PNMrFe9fVZ_Xu0VA',
+    handle: 'Katetheunreal'
+  },
+  'thelinuxchannel': {
+    channelId: 'UCESk3ORdKJ1iQGibV_XiHhw',
+    handle: 'TheLinuxChannel'
+  },
+  'thelinuxexp': {
+    channelId: 'UC5UAwBUum7CPN5buc-_N1Fw',
+    handle: 'TheLinuxEXP'
+  },
+  'therestisentertainment': {
+    channelId: 'UCYJpsKWYfZU8kOHZf_tUzQw',
+    handle: 'TheRestIsEntertainment'
+  },
+  'theverge': {
+    channelId: 'UCddiUEpeqJcYeBxX1IVBKvQ',
+    handle: 'TheVerge'
+  },
+  'tibees': {
+    channelId: 'UC52kszkc08-acFOuogFl5jw',
+    handle: 'tibees'
+  },
+  'tom_nicholas': {
+    channelId: 'UCxt2r57cLastdmrReiQJkEg',
+    handle: 'Tom_Nicholas'
+  },
+  'tondoeslinux': {
+    channelId: 'UCUDdGb82Xsv4_LQprelLhqA',
+    handle: 'TonDoesLinux'
+  },
+  'twinflicks': {
+    channelId: 'UCQG4l7WZRN_v8eI3tFtkHsQ',
+    handle: 'TwinFlicks'
+  },
+  'under_1_min': {
+    channelId: 'UCAq7apXGmB81wXmApvJ7kng',
+    handle: 'Under_1_min'
+  },
+  'vanityfair': {
+    channelId: 'UCIsbLox_y9dCIMLd8tdC6qg',
+    handle: 'VanityFair'
+  },
+  'veritasium': {
+    channelId: 'UCHnyfMqiRRG1u-2MsSQLbXA',
+    handle: 'veritasium'
+  },
+  'veronicaexplains': {
+    channelId: 'UCMiyV_Ib77XLpzHPQH_q0qQ',
+    handle: 'VeronicaExplains'
+  },
+  'vfxgeek': {
+    channelId: 'UC0XxzKQ-zNekAIJMAMrdXVA',
+    handle: 'VFXGeek'
+  },
+  'vizuara': {
+    channelId: 'UCdEov4L0bpJ_h6W3sJxkfUA',
+    handle: 'vizuara'
+  },
+  'yharazayd': {
+    channelId: 'UCzuvcjgZyyMaO6gwidRT8GA',
+    handle: 'Yharazayd'
+  },
+  'yharazayd': {
+    channelId: 'UCeTQM2-L710Mcqf6OAh9UUg',
+    handle: 'Yharazayd'
+  },
+  'vanityfair': {
+    channelId: 'UCIsbLox_y9dCIMLd8tdC6qg',
+    handle: 'VanityFair'
+  },
+  'veritasium': {
+    channelId: 'UCHnyfMqiRRG1u-2MsSQLbXA',
+    handle: 'veritasium'
+  },
 };
 
 const DEFAULT_CONFIG = {
