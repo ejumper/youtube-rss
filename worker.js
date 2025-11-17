@@ -36,7 +36,8 @@ const FEED_CONFIGS = {
     channelId: 'UCn8OYopT9e8tng-CGEWzfmw',
     handle: 'AtrocityGuide'
   },
-  'codingWithauryn': {
+  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  'codingwithauryn': {
     channelId: 'UChk4F4yBtP4i063wnJH8TIQ',
     handle: 'CodingWithAuryn'
   },
@@ -52,7 +53,8 @@ const FEED_CONFIGS = {
     channelId: 'UCBp_JNTbVgZx_6DFxSSY-Hg',
     handle: 'palmertrolls'
   },
-  'BeckyStern': {
+  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  'beckystern': {
     channelId: 'UCsI_41SZafKtB5qE46WjlQQ',
     handle: 'BeckyStern'
   },
@@ -92,7 +94,7 @@ const FEED_CONFIGS = {
     channelId: 'UCTGHqw41qk_WyK3wJK7nweg',
     handle: 'Brick_Crafts'
   },
-  'brynoDC': {
+  'brynodc': {
     channelId: 'UCNG4L6tzJq1i8gWkbmuMoiA',
     handle: 'brynoDC'
   },
@@ -104,15 +106,15 @@ const FEED_CONFIGS = {
     channelId: 'UCsdc_0ZTXikARFEn2dRDJhg',
     handle: 'FilamentFriday'
   },
-  'Chuntzit': {
+  'chuntzit': {
     channelId: 'UCghR6gNuBneEKkDuKtXQM4w',
     handle: 'Chuntzit'
   },
-  'ClickandThock': {
+  'clickandthock': {
     channelId: 'UCxsWMZAyUwT67nikED3sL_g',
     handle: 'ClickandThock'
   },
-  'CNET': {
+  'cnet': {
     channelId: 'UC9-y-6csu5WGm29I7JiwpnA',
     handle: 'CNET'
   },
@@ -164,7 +166,7 @@ const FEED_CONFIGS = {
     channelId: 'UCwjz7_xH_1Sehw5W-qIDLeg',
     handle: 'FourKeysBookArts'
   },
-    'geohussar': {
+  'geohussar': {
     channelId: 'UCEW-UCEW-70kkxTIsxPeXJtdVaeg',
     handle: 'GeoHussar'
   },
