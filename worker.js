@@ -8,6 +8,10 @@ const FEED_CONFIGS = {
     channelId: 'UC7YMZb0X_W06ToOazhFuXIQ',
     handle: '404Mediaco'
   },
+  'jasonkpargin': {
+    channelId: 'UCREK_lo_gv9fkQNxEzFTjwQ',
+    handle: 'jasonkpargin'
+  },
   'abettercomputer': {
     channelId: 'UCGYdWR8QUYn88lG0PBeJQ_g',
     handle: 'ABetterComputer'
@@ -434,7 +438,7 @@ const FEED_CONFIGS = {
   'veritasium': {
     channelId: 'UCHnyfMqiRRG1u-2MsSQLbXA',
     handle: 'veritasium'
-  },
+  }
 };
 
 const DEFAULT_CONFIG = {
