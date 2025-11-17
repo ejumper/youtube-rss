@@ -36,7 +36,6 @@ const FEED_CONFIGS = {
     channelId: 'UCn8OYopT9e8tng-CGEWzfmw',
     handle: 'AtrocityGuide'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   'codingwithauryn': {
     channelId: 'UChk4F4yBtP4i063wnJH8TIQ',
     handle: 'CodingWithAuryn'
@@ -53,7 +52,6 @@ const FEED_CONFIGS = {
     channelId: 'UCBp_JNTbVgZx_6DFxSSY-Hg',
     handle: 'palmertrolls'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   'beckystern': {
     channelId: 'UCsI_41SZafKtB5qE46WjlQQ',
     handle: 'BeckyStern'
@@ -82,7 +80,6 @@ const FEED_CONFIGS = {
     channelId: 'UCJSJ0xIWf4e3hNu7KgYqPxg',
     handle: 'HallOfTechLLC'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   'landonsanimationwheelhouse': {
     channelId: 'UC2WJrMmd_eNMqfWJbD_fq2A',
     handle: 'LandonsAnimationWheelhouse'
@@ -144,7 +141,6 @@ const FEED_CONFIGS = {
     channelId: 'UCNzszbnvQeFzObW0ghk0Ckw',
     handle: 'DavesGarage'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!!!
   'drloriv': {
     channelId: 'UCyld4DZKdnx-VcH0mqpOClg',
     handle: 'DrLoriV'
