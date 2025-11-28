@@ -448,9 +448,9 @@ const DEFAULT_CONFIG = {
 };
 
 const PROVIDER_PRIORITY = [
+  { type: 'invidious', host: 'https://inv.nadeko.net', mode: 'embed', key: 'inv-nadeko-embed' },
   { type: 'invidious', host: 'https://yewtu.be', mode: 'embed', key: 'yewtu-embed' },
   { type: 'invidious', host: 'https://invidious.f5.si', mode: 'embed', key: 'f5si-embed' },
-  { type: 'invidious', host: 'https://inv.nadeko.net', mode: 'embed', key: 'inv-nadeko-embed' },
   { type: 'youtube', host: 'https://www.youtube.com', mode: 'embed', key: 'youtube-embed' },
   { type: 'invidious', host: 'https://inv.nadeko.net', mode: 'page', key: 'inv-nadeko-page' },
   { type: 'invidious', host: 'https://yewtu.be', mode: 'page', key: 'yewtu-page' },
