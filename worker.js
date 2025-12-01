@@ -439,6 +439,10 @@ const FEED_CONFIGS = {
     channelId: 'UCHnyfMqiRRG1u-2MsSQLbXA',
     handle: 'veritasium'
   }
+  'fdsignifire': {
+    channelId: 'UCgi2u-lGY-2i2ubLsUr6FbQ',
+    handle: 'fdsignifire'
+  }
 };
 
 const DEFAULT_CONFIG = {
