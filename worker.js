@@ -451,16 +451,14 @@ const DEFAULT_CONFIG = {
   sourceCacheTTLMax: 3 * 3600
 };
 
-const PROVIDER_PRIORITY = [
-  { type: 'youtube', host: 'https://www.youtube.com', mode: 'page', key: 'youtube-page' },
-  { type: 'invidious', host: 'https://inv.nadeko.net', mode: 'embed', key: 'inv-nadeko-embed' },
-  { type: 'invidious', host: 'https://yewtu.be', mode: 'embed', key: 'yewtu-embed' },
-  { type: 'invidious', host: 'https://invidious.f5.si', mode: 'embed', key: 'f5si-embed' },
-  { type: 'youtube', host: 'https://www.youtube.com', mode: 'embed', key: 'youtube-embed' },
-  { type: 'invidious', host: 'https://inv.nadeko.net', mode: 'page', key: 'inv-nadeko-page' },
-  { type: 'invidious', host: 'https://yewtu.be', mode: 'page', key: 'yewtu-page' },
-  { type: 'invidious', host: 'https://invidious.f5.si', mode: 'page', key: 'f5si-page' }
-];
+// Invidious instances - change ACTIVE_INVIDIOUS_INSTANCE to swap
+const INVIDIOUS_INSTANCES = {
+  'yewtu': 'https://yewtu.be',
+  'nadeko': 'https://inv.nadeko.net',
+  'f5si': 'https://invidious.f5.si'
+};
+
+const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
 
 export default {
   async fetch(request, env) {
@@ -570,12 +568,11 @@ async function processFeed(config, env) {
     }
   }
 
-  const providerCache = new Map();
   const isAtom = feedXml.includes('<feed') && feedXml.includes('xmlns="http://www.w3.org/2005/Atom"');
-  return isAtom ? await processAtomFeed(feedXml, providerCache) : await processRssFeed(feedXml, providerCache);
+  return isAtom ? await processAtomFeed(feedXml) : await processRssFeed(feedXml);
 }
 
-async function processRssFeed(xmlString, providerCache) {
+async function processRssFeed(xmlString) {
   const itemRegex = /<item\b[^>]*>[\s\S]*?<\/item>/gi;
   const matches = [...xmlString.matchAll(itemRegex)];
   if (matches.length === 0) return xmlString;
@@ -586,7 +583,7 @@ async function processRssFeed(xmlString, providerCache) {
     const { index } = match;
     const fullItem = match[0];
     result += xmlString.slice(lastIndex, index);
-    const rewritten = await rewriteRssItem(fullItem, providerCache);
+    const rewritten = await rewriteRssItem(fullItem);
     result += rewritten;
     lastIndex = index + fullItem.length;
   }
@@ -594,7 +591,7 @@ async function processRssFeed(xmlString, providerCache) {
   return result;
 }
 
-async function processAtomFeed(xmlString, providerCache) {
+async function processAtomFeed(xmlString) {
   const entryRegex = /<entry\b[^>]*>[\s\S]*?<\/entry>/gi;
   const matches = [...xmlString.matchAll(entryRegex)];
   if (matches.length === 0) return xmlString;
@@ -605,7 +602,7 @@ async function processAtomFeed(xmlString, providerCache) {
     const { index } = match;
     const fullEntry = match[0];
     result += xmlString.slice(lastIndex, index);
-    const rewritten = await rewriteAtomEntry(fullEntry, providerCache);
+    const rewritten = await rewriteAtomEntry(fullEntry);
     result += rewritten;
     lastIndex = index + fullEntry.length;
   }
@@ -613,27 +610,29 @@ async function processAtomFeed(xmlString, providerCache) {
   return result;
 }
 
-async function rewriteRssItem(itemXml, providerCache) {
+async function rewriteRssItem(itemXml) {
   const videoId = extractVideoIdFromContent(itemXml);
   if (!videoId) return itemXml;
 
-  const preferredUrl = await getPreferredVideoUrl(videoId, providerCache);
+  const invidiousUrl = buildInvidiousUrl(videoId);
   let updated = itemXml;
-  updated = rewriteTextTag(updated, 'link', preferredUrl);
-  updated = rewriteTextTag(updated, 'guid', preferredUrl);
-  updated = rewriteMediaContentUrls(updated, preferredUrl);
+  updated = rewriteTextTag(updated, 'link', invidiousUrl);
+  updated = rewriteTextTag(updated, 'guid', invidiousUrl);
+  updated = rewriteMediaContentUrls(updated, invidiousUrl);
+  updated = prependVideoLinksToDescription(updated, videoId);
   return updated;
 }
 
-async function rewriteAtomEntry(entryXml, providerCache) {
+async function rewriteAtomEntry(entryXml) {
   const videoId = extractVideoIdFromContent(entryXml);
   if (!videoId) return entryXml;
 
-  const preferredUrl = await getPreferredVideoUrl(videoId, providerCache);
+  const invidiousUrl = buildInvidiousUrl(videoId);
   let updated = entryXml;
-  updated = rewriteLinkAttributes(updated, preferredUrl);
-  updated = rewriteTextTag(updated, 'id', preferredUrl);
-  updated = rewriteMediaContentUrls(updated, preferredUrl);
+  updated = rewriteLinkAttributes(updated, invidiousUrl);
+  updated = rewriteTextTag(updated, 'id', invidiousUrl);
+  updated = rewriteMediaContentUrls(updated, invidiousUrl);
+  updated = prependVideoLinksToDescription(updated, videoId);
   return updated;
 }
 
@@ -658,62 +657,61 @@ function rewriteMediaContentUrls(xmlFragment, newUrl) {
   return xmlFragment.replace(regex, (match, prefix, _url, suffix) => `${prefix}${escaped}${suffix}`);
 }
 
-async function getPreferredVideoUrl(videoId, providerCache) {
-  for (const provider of PROVIDER_PRIORITY) {
-    const cacheKey = provider.key;
-    let status = providerCache.get(cacheKey);
-    if (status === undefined) {
-      status = await isProviderReachable(provider, videoId);
-      providerCache.set(cacheKey, status);
-    }
-    if (status) {
-      return buildProviderUrl(provider, videoId);
-    }
-  }
+function buildInvidiousUrl(videoId) {
+  return `${ACTIVE_INVIDIOUS_INSTANCE}/watch?v=${videoId}&speed=1.8`;
+}
+
+function buildYouTubeUrl(videoId) {
   return `https://www.youtube.com/watch?v=${videoId}`;
 }
 
-async function isProviderReachable(provider, videoId) {
-  const testUrl = buildProviderUrl(provider, videoId);
-  if (!testUrl) return false;
+function prependVideoLinksToDescription(itemXml, videoId) {
+  const invidiousUrl = buildInvidiousUrl(videoId);
+  const youtubeUrl = buildYouTubeUrl(videoId);
 
-  try {
-    let response = await fetch(testUrl, {
-      method: 'HEAD',
-      redirect: 'manual'
-    });
+  const linkHtml = `<p><strong>Watch on:</strong> <a href="${escapeXmlAttribute(invidiousUrl)}">Invidious</a> | <a href="${escapeXmlAttribute(youtubeUrl)}">YouTube</a></p><hr>`;
 
-    if (response.status === 405 || response.status === 501) {
-      response = await fetch(testUrl, {
-        method: 'GET',
-        redirect: 'manual'
-      });
+  // Try to find <description> or <summary> first (RSS feeds)
+  const descRegex = /<(description|summary)\b([^>]*)>([\s\S]*?)<\/\1>/i;
+  let match = itemXml.match(descRegex);
+
+  if (match) {
+    const tagName = match[1];
+    const attributes = match[2];
+    const content = match[3];
+
+    // Check if content is wrapped in CDATA
+    const cdataMatch = content.match(/^(\s*)<!\[CDATA\[([\s\S]*?)\]\]>(\s*)$/);
+
+    let newContent;
+    if (cdataMatch) {
+      // Content is in CDATA - insert HTML inside CDATA
+      const [, leadingWs, innerContent, trailingWs] = cdataMatch;
+      newContent = `${leadingWs}<![CDATA[${linkHtml}${innerContent}]]>${trailingWs}`;
+    } else {
+      // No CDATA - wrap everything in CDATA for safety
+      newContent = `<![CDATA[${linkHtml}${content}]]>`;
     }
 
-    return response.ok;
-  } catch (error) {
-    console.error(`Provider check failed for ${provider.key}:`, error);
-    return false;
-  }
-}
-
-function buildProviderUrl(provider, videoId) {
-  const host = provider.host.replace(/\/+$/, '');
-  if (provider.type === 'invidious') {
-    if (provider.mode === 'embed') {
-      return `${host}/embed/${videoId}`;
-    }
-    return `${host}/watch?v=${videoId}`;
+    return itemXml.replace(descRegex, `<${tagName}${attributes}>${newContent}</${tagName}>`);
   }
 
-  if (provider.type === 'youtube') {
-    if (provider.mode === 'embed') {
-      return `${host}/embed/${videoId}?rel=0`;
-    }
-    return `${host}/watch?v=${videoId}`;
+  // If no description/summary, try <media:description> (YouTube Atom feeds)
+  const mediaDescRegex = /<(media:description)\b([^>]*)>([\s\S]*?)<\/\1>/i;
+  match = itemXml.match(mediaDescRegex);
+
+  if (match) {
+    const tagName = match[1];
+    const attributes = match[2];
+    const content = match[3];
+
+    // YouTube media:description is usually plain text, wrap in CDATA
+    const newContent = `<![CDATA[${linkHtml}${content}]]>`;
+    return itemXml.replace(mediaDescRegex, `<${tagName}${attributes}>${newContent}</${tagName}>`);
   }
 
-  return null;
+  // No description found, return unchanged
+  return itemXml;
 }
 
 function extractVideoIdFromContent(xmlFragment) {
