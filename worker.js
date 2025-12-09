@@ -204,9 +204,10 @@ const FEED_CONFIGS = {
     channelId: 'UCwjz7_xH_1Sehw5W-qIDLeg',
     handle: 'FourKeysBookArts'
   },
+  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   'geohussar': {
-    channelId: 'UCEW-UCEW-UCEW-70kkxTIsxPeXJtdVaeg',
-    handle: 'GeoHussar'
+    channelId: 'UCEW-70kkxTIsxPeXJtdVaeg',
+    handle: 'geohussar'
   },
   'hqkay': {
     channelId: 'UCnj_D0bV_fZ2p0BdBsUOcYA',
