@@ -658,7 +658,7 @@ function rewriteMediaContentUrls(xmlFragment, newUrl) {
 }
 
 function buildInvidiousUrl(videoId) {
-  return `${ACTIVE_INVIDIOUS_INSTANCE}/watch?v=${videoId}&speed=1.8`;
+  return `${ACTIVE_INVIDIOUS_INSTANCE}/embed/${videoId}?speed=1.8&quality_dash=auto&loop=1`;
 }
 
 function buildYouTubeUrl(videoId) {
