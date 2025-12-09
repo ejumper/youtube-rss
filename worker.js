@@ -4,6 +4,34 @@ const FEED_CONFIGS = {
     channelId: 'UCO1ydt_TOAZfwEgJpgOx2jQ',
     handle: 'CPScott16'
   },
+  'ziwe': {
+    channelId: 'UCY3L5on78KPyltbhEyiLDmA',
+    handle: 'ziwe'
+  },
+  'poggy': {
+    channelId: 'UCE2Wo7g7WrvwyxHxvH6U36Q',
+    handle: 'poggy'
+  },
+  'disastroushistory': {
+    channelId: 'UCEe85N_b6BAKKe53_LwQ8WA',
+    handle: 'disastroushistory'
+  },
+  'sonnybabie': {
+    channelId: 'UC-LQaamDeyDEzd6IaKsQ1Vw',
+    handle: 'sonnybabie'
+  },
+  'realityrewatch': {
+    channelId: 'UCEMdiRDdbN_H2nBrRXUnTrA"',
+    handle: 'realityrewatch'
+  },
+  'electroboom': {
+    channelId: 'UCJ0-OtVpF0wOKEqT2Z1HEtA"',
+    handle: 'electroboom'
+  },
+  'electroboom': {
+    channelId: 'UCJ0-OtVpF0wOKEqT2Z1HEtA"',
+    handle: 'electroboom'
+  },
   '404mediaco': {
     channelId: 'UC7YMZb0X_W06ToOazhFuXIQ',
     handle: '404Mediaco'
@@ -136,18 +164,21 @@ const FEED_CONFIGS = {
     channelId: 'UCAAJCQ0FCqRmAEv95SyTfNg',
     handle: 'maklelan'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!!!
   'danreedermusic': {
     channelId: 'UCZQVGv2GGRSOeVTQMYoru2A',
     handle: 'DanReederMusic'
   },
-  'maklelan': {
-    channelId: 'UCAAJCQ0FCqRmAEv95SyTfNg',
-    handle: 'maklelan'
+  'tested': {
+    channelId: 'UCiDJtJKMICpb9B1qf7qjEOA',
+    handle: 'tested'
   },
   'davesgarage': {
     channelId: 'UCNzszbnvQeFzObW0ghk0Ckw',
     handle: 'DavesGarage'
+  },
+  'howtohomelife': {
+    channelId: 'UCp4EeSRhJMdwiPkRstAVOwA',
+    handle: 'howtohomelife'
   },
   'drloriv': {
     channelId: 'UCyld4DZKdnx-VcH0mqpOClg',
@@ -157,9 +188,8 @@ const FEED_CONFIGS = {
     channelId: 'UCiflcKnh5cZiRWK7jlYKwxA',
     handle: 'ebnovels'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!!!!
   'emmymade': {
-    channelId: 'UC9-y-UCzqbfYjQmf9nLQPMxVgPhiA',
+    channelId: 'UCzqbfYjQmf9nLQPMxVgPhiA',
     handle: 'emmymade'
   },
   'etymology_nerd': {
@@ -174,9 +204,8 @@ const FEED_CONFIGS = {
     channelId: 'UCwjz7_xH_1Sehw5W-qIDLeg',
     handle: 'FourKeysBookArts'
   },
-  //!!!!!!!!!!!!!!!!!!!!!!
   'geohussar': {
-    channelId: 'UCEW-UCEW-70kkxTIsxPeXJtdVaeg',
+    channelId: 'UCEW-UCEW-UCEW-70kkxTIsxPeXJtdVaeg',
     handle: 'GeoHussar'
   },
   'hqkay': {
