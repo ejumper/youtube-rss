@@ -12,6 +12,10 @@ const FEED_CONFIGS = {
     channelId: 'UCREK_lo_gv9fkQNxEzFTjwQ',
     handle: 'jasonkpargin'
   },
+    'drhueyli': {
+    channelId: 'UC8oZG4c6FzOX4pbdpZBeCPw',
+    handle: 'drhueyli'
+  },
   'abettercomputer': {
     channelId: 'UCGYdWR8QUYn88lG0PBeJQ_g',
     handle: 'ABetterComputer'
@@ -407,10 +411,6 @@ const FEED_CONFIGS = {
     channelId: 'UCIsbLox_y9dCIMLd8tdC6qg',
     handle: 'VanityFair'
   },
-  'veritasium': {
-    channelId: 'UCHnyfMqiRRG1u-2MsSQLbXA',
-    handle: 'veritasium'
-  },
   'veronicaexplains': {
     channelId: 'UCMiyV_Ib77XLpzHPQH_q0qQ',
     handle: 'VeronicaExplains'
@@ -422,10 +422,6 @@ const FEED_CONFIGS = {
   'vizuara': {
     channelId: 'UCdEov4L0bpJ_h6W3sJxkfUA',
     handle: 'vizuara'
-  },
-  'yharazayd': {
-    channelId: 'UCzuvcjgZyyMaO6gwidRT8GA',
-    handle: 'Yharazayd'
   },
   'yharazayd': {
     channelId: 'UCeTQM2-L710Mcqf6OAh9UUg',
