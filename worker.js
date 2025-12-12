@@ -248,10 +248,6 @@ const FEED_CONFIGS = {
     channelId: 'UCOxhwqKKlVq_NaD0LVffGuw',
     handle: 'Lorde'
   },
-  'matteolanecomedy': {
-    channelId: 'UC9-UCHtaXqDklDTydmwgLj5siMg-6csu5WGm29I7JiwpnA',
-    handle: 'matteolanecomedy'
-  },
   'michael_tunnell': {
     channelId: 'UCmyGZ0689ODyReHw3rsKLtQ',
     handle: 'michael_tunnell'
@@ -259,14 +255,6 @@ const FEED_CONFIGS = {
   'gremlita': {
     channelId: 'UCoOss5XiPpnLHGmLrBvNkJg',
     handle: 'gremlita'
-  },
-  'maklelan': {
-    channelId: 'UCsJ-VTlxYSKG-UVHa7K1Khw',
-    handle: 'maklelan'
-  },
-  'mk.gee_': {
-    channelId: 'UCsJ-VTlxYSKG-UVHa7K1Khw',
-    handle: 'mk.gee_'
   },
   'molesrcoool': {
     channelId: 'UCNvIUYKjBXoMVcL0bTRUqhQ',
@@ -298,7 +286,7 @@ const FEED_CONFIGS = {
   },
   'outlawbookselleroriginal': {
     channelId: 'UCcpaYAc_kJbYBP66YQpxRnw',
-    handle: 'OfficeHoursLive'
+    handle: 'outlawbookselleroriginal'
   },
   'pingpingtechtalk': {
     channelId: 'UCYNIKXaDBl8DZ5FyxFivXhg',
@@ -339,10 +327,6 @@ const FEED_CONFIGS = {
   'simoncaine9515': {
     channelId: 'UC0HAW8tgFA_xEmeUupuRwiA',
     handle: 'simoncaine9515'
-  },
-  'StanWinstonSchool': {
-    channelId: 'UCnuYvkjI5C1HzYq9dfs2Nsg',
-    handle: 'OfficeHoursLive'
   },
   'sir_superhero': {
     channelId: 'UCnuYvkjI5C1HzYq9dfs2Nsg',
@@ -456,10 +440,6 @@ const FEED_CONFIGS = {
     channelId: 'UCeTQM2-L710Mcqf6OAh9UUg',
     handle: 'Yharazayd'
   },
-  'vanityfair': {
-    channelId: 'UCIsbLox_y9dCIMLd8tdC6qg',
-    handle: 'VanityFair'
-  },
   'veritasium': {
     channelId: 'UCHnyfMqiRRG1u-2MsSQLbXA',
     handle: 'veritasium'
@@ -467,11 +447,6 @@ const FEED_CONFIGS = {
   'fdsignifire': {
     channelId: 'UCgi2u-lGY-2i2ubLsUr6FbQ',
     handle: 'fdsignifire'
-  },
-  
-  'stavvysworld': {
-    channelId: 'UCBVAaHkKSwfzee79b7SPyPw',
-    handle: 'stavvysworld'
   },
   'speedify': {
     channelId: 'UC5sC63wOQ7kP3fVF3ZhrMmQ',
@@ -488,14 +463,6 @@ const FEED_CONFIGS = {
   'history_with_amy': {
     channelId: 'UCkW4uHDZadRSvJKs0QKBbEw',
     handle: 'history_with_amy'
-  },
-  'brickexperimentchannel': {
-    channelId: 'UClsFdM0HzTdF1JYoraQ0aUw',
-    handle: 'brickexperimentchannel'
-  },
-  'brick_crafts': {
-    channelId: 'UCTGHqw41qk_WyK3wJK7nweg',
-    handle: 'brick_crafts'
   },
   'contrapoints': {
     channelId: 'UCNvsIonJdJ5E4EXMa65VYpA',
@@ -516,10 +483,6 @@ const FEED_CONFIGS = {
   'diinkikot': {
     channelId: 'UCrk2bNxxxLP-Qd77KxBJ3Xg',
     handle: 'diinkikot'
-  },
-  'disastroushistory': {
-    channelId: 'UCEe85N_b6BAKKe53_LwQ8WA',
-    handle: 'disastroushistory'
   },
   'distrotube': {
     channelId: 'UCVls1GmFKf6WlTraIb_IaJg',
@@ -545,10 +508,6 @@ const FEED_CONFIGS = {
     channelId: 'UC3s0BtrBJpwNDaflRSoiieQ',
     handle: 'hak5'
   },
-  'thesiliconsiren': {
-    channelId: 'UCC9uI0zEXkiRFgctyTLegRg',
-    handle: 'thesiliconsiren'
-  },
   'ithinkyoushouldknowthis': {
     channelId: 'UC9P9zIVWYO4IEJmFfY5NUkg',
     handle: 'ithinkyoushouldknowthis'
@@ -556,10 +515,6 @@ const FEED_CONFIGS = {
   'indiascarlett': {
     channelId: 'UCErH9dClT_JS4VbWgxiKdPA',
     handle: 'indiascarlett'
-  },
-  '_jared': {
-    channelId: 'UC2Kyj04yISmHr1V-UlJz4eg',
-    handle: '_jared'
   },
   'kellybadakdesign': {
     channelId: 'UCA41V9J0USwfXqqTdhV0orQ',
@@ -576,10 +531,6 @@ const FEED_CONFIGS = {
   'kevinpowell': {
     channelId: 'UCJZv4d5rbIKd4QHMPkcABCw',
     handle: 'kevinpowell'
-  },
-  'lastweektonight': {
-    channelId: 'UC3XTzVzaHQEd30rQbuvCtTQ',
-    handle: 'lastweektonight'
   },
   'thelawsayswhat': {
     channelId: 'UCAUT6w_cx_unIpMu4fw4N2Q',
@@ -665,17 +616,9 @@ const FEED_CONFIGS = {
     channelId: 'UCrSkYkgxW8PyR-kbjUEMrRA',
     handle: 'propstohistory'
   },
-  'jayduck9': {
-    channelId: 'UCB3gITkN1-LzFF_IpVanURQ',
-    handle: 'jayduck9'
-  },
   'pushinguproses': {
     channelId: 'UCCTNXqhWPba9Xh8gx0EKOtQ',
     handle: 'pushinguproses'
-  },
-  'drrachelbarr': {
-    channelId: 'UCC6wU8VRgIYizEjVvTdalMQ',
-    handle: 'drrachelbarr'
   },
   'rebuttalpod': {
     channelId: 'UC8sH4hj0llduUvr2y-usoWQ',
@@ -688,10 +631,6 @@ const FEED_CONFIGS = {
   'robanderson': {
     channelId: 'UC9ehmuMEPVmvOH_d2fVTNgw',
     handle: 'robanderson'
-  },
-  'rottenmangopod': {
-    channelId: 'UC0JJtK3m8pwy6rVgnBz47Rw',
-    handle: 'rottenmangopod'
   },
   'rottenmangopod': {
     channelId: 'UC0JJtK3m8pwy6rVgnBz47Rw',
@@ -725,9 +664,9 @@ const FEED_CONFIGS = {
     channelId: 'UCjSEJkpGbcZhvo0lr-44X_w',
     handle: 'techhut'
   },
-  'TechWorldwithNana': {
+  'techworldwithnana': {
     channelId: 'UCdngmbVKX1Tgre699-XLlUA',
-    handle: 'TechWorldwithNana'
+    handle: 'techworldwithnana'
   },
   'theinternetreviewed': {
     channelId: 'UCQFXq97bgp86MMny1f-oYFA',
