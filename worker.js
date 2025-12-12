@@ -344,10 +344,6 @@ const FEED_CONFIGS = {
     channelId: 'UCBVAaHkKSwfzee79b7SPyPw',
     handle: 'stavvysworld'
   },
-  'SwitchandClickOfficial': {
-    channelId: 'UCT6AJiTYspOILBK3hMWEq2g',
-    handle: 'SwitchandClickOfficial'
-  },
   'jamelle-bouie': {
     channelId: 'UCgDA-Or474NOdFEF8WF2yCA',
     handle: 'jamelle-bouie'
@@ -371,14 +367,6 @@ const FEED_CONFIGS = {
   'theboboyspodcast': {
     channelId: 'UCtvC3nAHWPr6Ztc9PfB3eIA',
     handle: 'theboboyspodcast'
-  },
-  'thedailyshow': {
-    channelId: 'UCUNOwz9KTDIhhTTN3_ptUDA',
-    handle: 'TheDailyShow'
-  },
-  'thegoodliars': {
-    channelId: 'UCUNOwz9KTDIhhTTN3_ptUDA',
-    handle: 'TheGoodLiars'
   },
   'katetheunreal': {
     channelId: 'UCbORPu-PNMrFe9fVZ_Xu0VA',
