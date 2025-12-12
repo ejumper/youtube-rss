@@ -28,10 +28,6 @@ const FEED_CONFIGS = {
     channelId: 'UCJ0-OtVpF0wOKEqT2Z1HEtA"',
     handle: 'electroboom'
   },
-  'electroboom': {
-    channelId: 'UCJ0-OtVpF0wOKEqT2Z1HEtA"',
-    handle: 'electroboom'
-  },
   '404mediaco': {
     channelId: 'UC7YMZb0X_W06ToOazhFuXIQ',
     handle: '404Mediaco'
