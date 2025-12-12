@@ -21,11 +21,11 @@ const FEED_CONFIGS = {
     handle: 'sonnybabie'
   },
   'realityrewatch': {
-    channelId: 'UCEMdiRDdbN_H2nBrRXUnTrA"',
+    channelId: 'UCEMdiRDdbN_H2nBrRXUnTrA',
     handle: 'realityrewatch'
   },
   'electroboom': {
-    channelId: 'UCJ0-OtVpF0wOKEqT2Z1HEtA"',
+    channelId: 'UCJ0-OtVpF0wOKEqT2Z1HEtA',
     handle: 'electroboom'
   },
   '404mediaco': {
@@ -118,7 +118,7 @@ const FEED_CONFIGS = {
   },
   'brickexperimentchannel': {
     channelId: 'UClsFdM0HzTdF1JYoraQ0aUw',
-    handle: 'BrickExperimentChannelationWheelhouse'
+    handle: 'brickexperimentchannel'
   },
   'brick_crafts': {
     channelId: 'UCTGHqw41qk_WyK3wJK7nweg',
@@ -129,7 +129,7 @@ const FEED_CONFIGS = {
     handle: 'brynoDC'
   },
   'snaptocks': {
-    channelId: 'UCNG4L6tzJq1i8gWkbmuMoiA',
+    channelId: 'UC2rfbuewqVswme9tiUPXYug',
     handle: 'snaptocks'
   },
   'filamentfriday': {
@@ -345,7 +345,7 @@ const FEED_CONFIGS = {
     handle: 'jamelle-bouie'
   },
   'taramooknee': {
-    channelId: 'UCT5C7yaO3RVuOgwP8JVAujQ',
+    channelId: 'UCash6vxr1eNi5r_JsihPD_g',
     handle: 'TaraMooknee'
   },
   'taskmaster': {
