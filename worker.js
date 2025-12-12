@@ -292,10 +292,6 @@ const FEED_CONFIGS = {
     channelId: 'UCB3gITkN1-LzFF_IpVanURQ',
     handle: 'jayduck9'
   },
-  'officehourslive': {
-    channelId: 'UCtS3BcCw-tITPFYSvkbP0Bg',
-    handle: 'OfficeHoursLive'
-  },
   'drrachelbarr': {
     channelId: 'UCC6wU8VRgIYizEjVvTdalMQ',
     handle: 'DrRachelBarr'
