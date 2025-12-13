@@ -8,9 +8,13 @@ const FEED_CONFIGS = {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'natebjones'
   },
-  'springflingqueens': {
-    channelId: 'UCKhF_kAJ52Fh4ghNOGpLIDw',
-    handle: 'springflingqueens'
+  'wired': {
+    channelId: 'UCftwRNsjfRo08xYE31tkiyw',
+    handle: 'wired'
+  },
+  'variety': {
+    channelId: 'UCgRQHK8Ttr1j9xCEpCAlgbQ',
+    handle: 'variety'
   },
   'bria.stuart': {
     channelId: 'UCP0MYCuXPXwZntWNXSzV0oQ',
