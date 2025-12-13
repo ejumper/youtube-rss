@@ -691,7 +691,7 @@ const INVIDIOUS_INSTANCES = {
   'f5si': 'https://invidious.f5.si'
 };
 
-const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nadeko;
+const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.f5si;
 
 export default {
   async fetch(request, env) {
