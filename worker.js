@@ -684,14 +684,18 @@ const DEFAULT_CONFIG = {
   sourceCacheTTLMax: 3 * 3600
 };
 
-// Invidious instances - change ACTIVE_INVIDIOUS_INSTANCE to swap
+// Invidious instances - change ACTIVE_INVIDIOUS_INSTANCE and SECONDARY_INVIDIOUS_INSTANCE to swap
 const INVIDIOUS_INSTANCES = {
   'yewtu': 'https://yewtu.be',
   'nadeko': 'https://inv.nadeko.net',
   'f5si': 'https://invidious.f5.si'
 };
 
+// Main instance: used for feed links (with embed mode and parameters)
 const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.f5si;
+
+// Secondary instance: used for description fallback link (simple watch page)
+const SECONDARY_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
 
 export default {
   async fetch(request, env) {
@@ -894,15 +898,19 @@ function buildInvidiousUrl(videoId) {
   return `${ACTIVE_INVIDIOUS_INSTANCE}/embed/${videoId}?speed=1.8&quality_dash=auto&loop=1`;
 }
 
+function buildSecondaryInvidiousUrl(videoId) {
+  return `${SECONDARY_INVIDIOUS_INSTANCE}/watch?v=${videoId}`;
+}
+
 function buildYouTubeUrl(videoId) {
   return `https://www.youtube.com/watch?v=${videoId}`;
 }
 
 function prependVideoLinksToDescription(itemXml, videoId) {
-  const invidiousUrl = buildInvidiousUrl(videoId);
+  const secondaryInvidiousUrl = buildSecondaryInvidiousUrl(videoId);
   const youtubeUrl = buildYouTubeUrl(videoId);
 
-  const linkHtml = `<p><strong>Watch on:</strong> <a href="${escapeXmlAttribute(invidiousUrl)}">Invidious</a> | <a href="${escapeXmlAttribute(youtubeUrl)}">YouTube</a></p><hr>`;
+  const linkHtml = `<p><a href="${escapeXmlAttribute(secondaryInvidiousUrl)}">Invidious</a> | <a href="${escapeXmlAttribute(youtubeUrl)}">YouTube</a></p><hr>`;
 
   // Try to find <description> or <summary> first (RSS feeds)
   const descRegex = /<(description|summary)\b([^>]*)>([\s\S]*?)<\/\1>/i;
