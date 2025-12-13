@@ -8,6 +8,10 @@ const FEED_CONFIGS = {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'natebjones'
   },
+  'springflingqueens': {
+    channelId: 'UCKhF_kAJ52Fh4ghNOGpLIDw',
+    handle: 'springflingqueens'
+  },
   'bria.stuart': {
     channelId: 'UCP0MYCuXPXwZntWNXSzV0oQ',
     handle: 'bria.stuart'
