@@ -400,6 +400,10 @@ const FEED_CONFIGS = {
     channelId: 'UC52kszkc08-acFOuogFl5jw',
     handle: 'tibees'
   },
+  'royalcourt': {
+    channelId: 'UCdEwstTO8WsTHCyzrCSfXCQ',
+    handle: 'royalcourt'
+  },
   'tom_nicholas': {
     channelId: 'UCxt2r57cLastdmrReiQJkEg',
     handle: 'Tom_Nicholas'
