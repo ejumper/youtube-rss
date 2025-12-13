@@ -683,7 +683,7 @@ const INVIDIOUS_INSTANCES = {
   'f5si': 'https://invidious.f5.si'
 };
 
-const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
+const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nadeko;
 
 export default {
   async fetch(request, env) {
