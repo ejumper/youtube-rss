@@ -693,12 +693,12 @@ const INVIDIOUS_INSTANCES = {
   'yewtu': 'https://yewtu.be',
   'nadeko': 'https://inv.nadeko.net',
   'f5si': 'https://invidious.f5.si',
-  'nerdvpn': 'https://invidious.nerdvpn.de/',
+  'nerdvpn': 'https://invidious.nerdvpn.de',
   'perditum': 'inv.perditum.com'
 };
 
 // Main instance: used for feed links (with embed mode and parameters)
-const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.f5si;
+const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nadeko;
 
 // Secondary instance: used for description fallback link (simple watch page)
 const SECONDARY_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
