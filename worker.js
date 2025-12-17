@@ -698,10 +698,10 @@ const INVIDIOUS_INSTANCES = {
 };
 
 // Main instance: used for feed links (with embed mode and parameters)
-const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
+const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nadeko;
 
 // Secondary instance: used for description fallback link (simple watch page)
-const SECONDARY_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nadeko;
+const SECONDARY_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
 
 export default {
   async fetch(request, env) {
