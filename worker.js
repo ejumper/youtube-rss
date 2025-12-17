@@ -8,6 +8,10 @@ const FEED_CONFIGS = {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'natebjones'
   },
+  'vulnerableu': {
+    channelId: 'UCGLhbV0inhaOQEPo5zFjTNQ',
+    handle: 'VulnerableU'
+  },
   'variety': {
     channelId: 'UCgRQHK8Ttr1j9xCEpCAlgbQ',
     handle: 'variety'
