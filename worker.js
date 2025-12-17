@@ -12,6 +12,10 @@ const FEED_CONFIGS = {
     channelId: 'UCgRQHK8Ttr1j9xCEpCAlgbQ',
     handle: 'variety'
   },
+  'wired': {
+    channelId: 'UCftwRNsjfRo08xYE31tkiyw',
+    handle: 'wired'
+  },
   'bria.stuart': {
     channelId: 'UCP0MYCuXPXwZntWNXSzV0oQ',
     handle: 'bria.stuart'
