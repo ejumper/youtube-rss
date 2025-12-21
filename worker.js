@@ -8,6 +8,10 @@ const FEED_CONFIGS = {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'natebjones'
   },
+  'wingsofpegasus': {
+    channelId: 'UCEHCXnggyvkw1uaTChZ_kuA',
+    handle: 'wingsofpegasus'
+  },
   'corridorcrew': {
     channelId: 'UCSpFnDQr88xCZ80N-X7t0nQ',
     handle: 'CorridorCrew'
