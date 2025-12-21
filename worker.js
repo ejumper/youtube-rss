@@ -8,6 +8,14 @@ const FEED_CONFIGS = {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'natebjones'
   },
+  'corridorcrew': {
+    channelId: 'UCSpFnDQr88xCZ80N-X7t0nQ',
+    handle: 'CorridorCrew'
+  },
+  'jeffgeerling': {
+    channelId: 'UCR-DXc1voovS8nhAvccRZhg',
+    handle: 'JeffGeerling'
+  },
   'vulnerableu': {
     channelId: 'UCGLhbV0inhaOQEPo5zFjTNQ',
     handle: 'VulnerableU'
