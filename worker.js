@@ -28,7 +28,7 @@ const FEED_CONFIGS = {
     channelId: 'UCgRQHK8Ttr1j9xCEpCAlgbQ',
     handle: 'variety'
   },
-'wired': {
+  'wired': {
     channelId: 'UCftwRNsjfRo08xYE31tkiyw',
     handle: 'wired'
   },
@@ -64,7 +64,7 @@ const FEED_CONFIGS = {
     channelId: 'UCREK_lo_gv9fkQNxEzFTjwQ',
     handle: 'jasonkpargin'
   },
-    'drhueyli': {
+  'drhueyli': {
     channelId: 'UC8oZG4c6FzOX4pbdpZBeCPw',
     handle: 'drhueyli'
   },
@@ -199,10 +199,6 @@ const FEED_CONFIGS = {
   'geohussar': {
     channelId: 'UCEW-70kkxTIsxPeXJtdVaeg',
     handle: 'geohussar'
-  },
-  'hqkay': {
-    channelId: 'UCnj_D0bV_fZ2p0BdBsUOcYA',
-    handle: 'HQKAY'
   },
   'democracynow': {
     channelId: 'UCzuqE7-t13O4NIDYJfakrhw',
