@@ -14,7 +14,7 @@ const FEED_CONFIGS = {
   },
   'uscsb': {
     channelId: 'UCXIkr0SRTnZO4_QpZozvCCA',
-    handle: 'uscsb'
+    handle: 'USCSB'
   },
   'therestisscience': {
     channelId: 'UCThg2IH7bNbIQF0hmXA9ECw',
