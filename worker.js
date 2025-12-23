@@ -12,6 +12,14 @@ const FEED_CONFIGS = {
     channelId: 'UCEHCXnggyvkw1uaTChZ_kuA',
     handle: 'wingsofpegasus'
   },
+  'uscsb': {
+    channelId: 'UCXIkr0SRTnZO4_QpZozvCCA',
+    handle: 'uscsb'
+  },
+  'therestisscience': {
+    channelId: 'UCThg2IH7bNbIQF0hmXA9ECw',
+    handle: 'TheRestIsScience'
+  },
   'corridorcrew': {
     channelId: 'UCSpFnDQr88xCZ80N-X7t0nQ',
     handle: 'CorridorCrew'
