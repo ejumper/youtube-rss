@@ -310,7 +310,8 @@ const FEED_CONFIGS = {
   },
   'officehourslive': {
     channelId: 'UCtS3BcCw-tITPFYSvkbP0Bg',
-    handle: 'OfficeHoursLive'
+    handle: 'OfficeHoursLive',
+    excludeShorts: true
   },
   'stavvysworld': {
     channelId: 'UCBVAaHkKSwfzee79b7SPyPw',
@@ -330,7 +331,8 @@ const FEED_CONFIGS = {
   },
   'taylorlorenz': {
     channelId: 'UCp38w5n099xkvoqciOaeFag',
-    handle: 'TaylorLorenz'
+    handle: 'TaylorLorenz',
+    excludeShorts: true
   },
   'theadamfriedlandshow': {
     channelId: 'UC6ext5UAbrLT2e5y5BC6RTQ',
@@ -752,10 +754,10 @@ async function processFeed(config, env) {
   }
 
   const isAtom = feedXml.includes('<feed') && feedXml.includes('xmlns="http://www.w3.org/2005/Atom"');
-  return isAtom ? await processAtomFeed(feedXml) : await processRssFeed(feedXml);
+  return isAtom ? await processAtomFeed(feedXml, config) : await processRssFeed(feedXml, config);
 }
 
-async function processRssFeed(xmlString) {
+async function processRssFeed(xmlString, config) {
   const itemRegex = /<item\b[^>]*>[\s\S]*?<\/item>/gi;
   const matches = [...xmlString.matchAll(itemRegex)];
   if (matches.length === 0) return xmlString;
@@ -765,6 +767,14 @@ async function processRssFeed(xmlString) {
   for (const match of matches) {
     const { index } = match;
     const fullItem = match[0];
+
+    // Skip shorts if excludeShorts is enabled for this feed
+    if (config?.excludeShorts && isShortVideo(fullItem)) {
+      result += xmlString.slice(lastIndex, index);
+      lastIndex = index + fullItem.length;
+      continue;
+    }
+
     result += xmlString.slice(lastIndex, index);
     const rewritten = await rewriteRssItem(fullItem);
     result += rewritten;
@@ -774,7 +784,7 @@ async function processRssFeed(xmlString) {
   return result;
 }
 
-async function processAtomFeed(xmlString) {
+async function processAtomFeed(xmlString, config) {
   const entryRegex = /<entry\b[^>]*>[\s\S]*?<\/entry>/gi;
   const matches = [...xmlString.matchAll(entryRegex)];
   if (matches.length === 0) return xmlString;
@@ -784,6 +794,14 @@ async function processAtomFeed(xmlString) {
   for (const match of matches) {
     const { index } = match;
     const fullEntry = match[0];
+
+    // Skip shorts if excludeShorts is enabled for this feed
+    if (config?.excludeShorts && isShortVideo(fullEntry)) {
+      result += xmlString.slice(lastIndex, index);
+      lastIndex = index + fullEntry.length;
+      continue;
+    }
+
     result += xmlString.slice(lastIndex, index);
     const rewritten = await rewriteAtomEntry(fullEntry);
     result += rewritten;
@@ -963,6 +981,11 @@ function extractYouTubeVideoId(url) {
 
   const fallback = normalized.match(/([A-Za-z0-9_-]{11})/);
   return fallback ? fallback[1] : null;
+}
+
+function isShortVideo(xmlFragment) {
+  // Check for /shorts/ in any URL within the XML fragment
+  return xmlFragment.includes('/shorts/');
 }
 
 function rewriteFeedSelfLink(feedXml, selfUrl) {
