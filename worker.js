@@ -32,10 +32,6 @@ const FEED_CONFIGS = {
     channelId: 'UC2sgoh6YCrf8df1UMpUciTw',
     handle: 'katyaandtrixie'
   },
-  'katyaandtrixie': {
-    channelId: 'UC2sgoh6YCrf8df1UMpUciTw',
-    handle: 'katyaandtrixie'
-  },
   'saveitforparts': {
     channelId: 'UCNLRcEn78Vc62C3GkMvBgtA',
     handle: 'saveitforparts'
