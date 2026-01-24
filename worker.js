@@ -8,9 +8,37 @@ const FEED_CONFIGS = {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'natebjones'
   },
-  'wingsofpegasus': {
-    channelId: 'UCEHCXnggyvkw1uaTChZ_kuA',
-    handle: 'wingsofpegasus'
+  'olisunvia': {
+    channelId: 'UCVHxJghKAB_kA_5LMM8MD3w',
+    handle: 'olisunvia'
+  },
+  'brynodc': {
+    channelId: 'UCNG4L6tzJq1i8gWkbmuMoiA',
+    handle: 'brynodc'
+  },
+  'popculturescientist': {
+    channelId: 'UC-8G5xVNXvt7eQKzeFWr9Vw',
+    handle: 'popculturescientist'
+  },
+  'coffeezilla': {
+    channelId: 'UCFQMnBA3CS502aghlcr0_aw',
+    handle: 'coffeezilla'
+  },
+  'coffeezillaextras': {
+    channelId: 'UC28n0tlcNSa1iPe5mettocg',
+    handle: 'coffeezillaextras'
+  },
+  'katyaandtrixie': {
+    channelId: 'UC2sgoh6YCrf8df1UMpUciTw',
+    handle: 'katyaandtrixie'
+  },
+  'katyaandtrixie': {
+    channelId: 'UC2sgoh6YCrf8df1UMpUciTw',
+    handle: 'katyaandtrixie'
+  },
+  'saveitforparts': {
+    channelId: 'UCNLRcEn78Vc62C3GkMvBgtA',
+    handle: 'saveitforparts'
   },
   'uscsb': {
     channelId: 'UCXIkr0SRTnZO4_QpZozvCCA',
