@@ -5,8 +5,28 @@ const FEED_CONFIGS = {
     handle: 'CPScott16'
   },
   'natebjones': {
-    channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
+    channelId: 'UCawZsQWqfGSbCI5yjkdVkTA',
     handle: 'natebjones'
+  },
+  'samwitteveenai': {
+    channelId: 'UC55ODQSvARtgSyc8ThfiepQ',
+    handle: 'samwitteveenai'
+  },
+  'yannickilcher': {
+    channelId: 'UCZHmQk67mSJgfCCTn7xBfew',
+    handle: 'yannickilcher'
+  },
+  'AndrejKarpathy': {
+    channelId: 'UCXUPKJO5MZQN11PqgIvyuvQ',
+    handle: 'AndrejKarpathy'
+  },
+    'twominutepapers': {
+    channelId: 'UCbfYPyITQ-7l4upoX8nvctg',
+    handle: 'TwoMinutePapers'
+  },
+    'matthew_berman': {
+    channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
+    handle: 'matthew_berman'
   },
   'olisunvia': {
     channelId: 'UCVHxJghKAB_kA_5LMM8MD3w',
