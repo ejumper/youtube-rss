@@ -16,7 +16,7 @@ const FEED_CONFIGS = {
     channelId: 'UCZHmQk67mSJgfCCTn7xBfew',
     handle: 'yannickilcher'
   },
-  'AndrejKarpathy': {
+  'andrejkarpathy': {
     channelId: 'UCXUPKJO5MZQN11PqgIvyuvQ',
     handle: 'AndrejKarpathy'
   },
