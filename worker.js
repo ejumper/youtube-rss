@@ -12,6 +12,10 @@ const FEED_CONFIGS = {
     channelId: 'UC55ODQSvARtgSyc8ThfiepQ',
     handle: 'samwitteveenai'
   },
+  'anthonyjeselnik': {
+    channelId: 'UCgNLQb0HXIU2jspQAhISRYA',
+    handle: 'anthonyjeselnik'
+  },
   'kozyrkov': {
     channelId: 'UCbOX--VOebPe-MMRkatFRxw',
     handle: 'kozyrkov'
