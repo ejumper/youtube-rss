@@ -4,10 +4,6 @@ const FEED_CONFIGS = {
     channelId: 'UCO1ydt_TOAZfwEgJpgOx2jQ',
     handle: 'CPScott16'
   },
-  'natebjones': {
-    channelId: 'UCawZsQWqfGSbCI5yjkdVkTA',
-    handle: 'natebjones'
-  },
   'samwitteveenai': {
     channelId: 'UC55ODQSvARtgSyc8ThfiepQ',
     handle: 'samwitteveenai'
