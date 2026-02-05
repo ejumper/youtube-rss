@@ -8,6 +8,10 @@ const FEED_CONFIGS = {
     channelId: 'UC55ODQSvARtgSyc8ThfiepQ',
     handle: 'samwitteveenai'
   },
+  'lauriewired': {
+    channelId: 'UCJXa3_WNNmIpewOtCHf3B0g',
+    handle: 'lauriewired'
+  },
   'anthonyjeselnik': {
     channelId: 'UCgNLQb0HXIU2jspQAhISRYA',
     handle: 'anthonyjeselnik'
