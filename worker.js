@@ -12,6 +12,10 @@ const FEED_CONFIGS = {
     channelId: 'UCJXa3_WNNmIpewOtCHf3B0g',
     handle: 'lauriewired'
   },
+  'donatocapitella': {
+    channelId: 'UCP0QFok6EimQYTMj5qOLNow',
+    handle: 'donatocapitella'
+  },
   'anthonyjeselnik': {
     channelId: 'UCgNLQb0HXIU2jspQAhISRYA',
     handle: 'anthonyjeselnik'
