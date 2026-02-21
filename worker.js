@@ -92,6 +92,10 @@ const FEED_CONFIGS = {
     channelId: 'UCgRQHK8Ttr1j9xCEpCAlgbQ',
     handle: 'variety'
   },
+  'breadOnpenguins': {
+    channelId: 'UCwHwDuNd9lCdA7chyyquDXw',
+    handle: 'breadOnpenguins'
+  },
   'wired': {
     channelId: 'UCftwRNsjfRo08xYE31tkiyw',
     handle: 'wired'
