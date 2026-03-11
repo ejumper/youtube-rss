@@ -16,6 +16,10 @@ const FEED_CONFIGS = {
     channelId: 'UCydX8ueOwv5_bvd7Uj0HBHw',
     handle: 'davidhartley94'
   },
+  'ibmtechnology': {
+    channelId: 'UCKWaEZ-_VweaEx1j62do_vQ',
+    handle: 'ibmtechnology'
+  },
   'donatocapitella': {
     channelId: 'UCP0QFok6EimQYTMj5qOLNow',
     handle: 'donatocapitella'
