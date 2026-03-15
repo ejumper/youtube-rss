@@ -554,10 +554,6 @@ const FEED_CONFIGS = {
     channelId: 'UCW_N5r2i-6umjHmiNHlofDw',
     handle: 'microdoseofart'
   },
-  'narrowayhomestead': {
-    channelId: 'UCLO9n5sEoTKsDFMfqCPHt9A',
-    handle: 'narrowayhomestead'
-  },
   'moderngurlz': {
     channelId: 'UCW_c5PzkvxMaBxqwjITW6-A',
     handle: 'moderngurlz'
