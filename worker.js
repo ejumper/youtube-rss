@@ -40,10 +40,6 @@ const FEED_CONFIGS = {
     channelId: 'UCXUPKJO5MZQN11PqgIvyuvQ',
     handle: 'AndrejKarpathy'
   },
-    'twominutepapers': {
-    channelId: 'UCbfYPyITQ-7l4upoX8nvctg',
-    handle: 'TwoMinutePapers'
-  },
     'matthew_berman': {
     channelId: 'UC0C-17n9iuUQPylguM1d-lQ',
     handle: 'matthew_berman'
@@ -71,10 +67,6 @@ const FEED_CONFIGS = {
   'katyaandtrixie': {
     channelId: 'UC2sgoh6YCrf8df1UMpUciTw',
     handle: 'katyaandtrixie'
-  },
-  'saveitforparts': {
-    channelId: 'UCNLRcEn78Vc62C3GkMvBgtA',
-    handle: 'saveitforparts'
   },
   'uscsb': {
     channelId: 'UCXIkr0SRTnZO4_QpZozvCCA',
@@ -312,10 +304,6 @@ const FEED_CONFIGS = {
     channelId: 'UCmyGZ0689ODyReHw3rsKLtQ',
     handle: 'michael_tunnell'
   },
-  'molesrcoool': {
-    channelId: 'UCNvIUYKjBXoMVcL0bTRUqhQ',
-    handle: 'molesrcoool'
-  },
   'molly0xfff': {
     channelId: 'UCJcWDNh9E6AoVW4nsMXyVCw',
     handle: 'molly0xfff'
@@ -328,10 +316,6 @@ const FEED_CONFIGS = {
     channelId: 'UC9x0AN7BWHpCDHSm9NiJFJQ',
     handle: 'NetworkChuck'
   },
-  'nikfromtiktok': {
-    channelId: 'UCOADp5jDxyAffcTNFvumbQA',
-    handle: 'NikFromTikTok'
-  },
   'nprmusic': {
     channelId: 'UC4eYXhJI4-7wSWc8UNRwD4A',
     handle: 'nprmusic'
@@ -340,10 +324,6 @@ const FEED_CONFIGS = {
     channelId: 'UClFk1sJv-6eSJNHejjvf-6g',
     handle: 'oceanna_'
   },
-  'pingpingtechtalk': {
-    channelId: 'UCYNIKXaDBl8DZ5FyxFivXhg',
-    handle: 'PingPingTechTalk'
-  },
   'jayduck9': {
     channelId: 'UCB3gITkN1-LzFF_IpVanURQ',
     handle: 'jayduck9'
@@ -351,10 +331,6 @@ const FEED_CONFIGS = {
   'drrachelbarr': {
     channelId: 'UCC6wU8VRgIYizEjVvTdalMQ',
     handle: 'DrRachelBarr'
-  },
-  'ramjad': {
-    channelId: 'UCLA7cJBnqr0nLF2bQBD9uUg',
-    handle: 'RAmjad'
   },
   'rottenmangopod': {
     channelId: 'UCZnXNjnBhrrmvx3eDO_2z9w',
@@ -573,10 +549,6 @@ const FEED_CONFIGS = {
   'fatboymatt': {
     channelId: 'UCxPOBnMX5H7LG3CuqIj65sA',
     handle: 'fatboymatt'
-  },
-  'mentaloutlaw': {
-    channelId: 'UC7YOGHUfC1Tb6E4pudI9STA',
-    handle: 'mentaloutlaw'
   },
   'microdoseofart': {
     channelId: 'UCW_N5r2i-6umjHmiNHlofDw',
