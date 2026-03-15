@@ -526,10 +526,6 @@ const FEED_CONFIGS = {
     channelId: 'UCTYosWw1js65od54FPsohDw',
     handle: 'farmtotaber'
   },
-  'fleshsimulator': {
-    channelId: 'UCxSwqqnJp9HsW0hBrHcp1FQ',
-    handle: 'fleshsimulator'
-  },
   'bearbaitofficial': {
     channelId: 'UCx6kBc-lI6YxtpwQCYwFFig',
     handle: 'bearbaitofficial'
@@ -573,10 +569,6 @@ const FEED_CONFIGS = {
   'minutecryptic': {
     channelId: 'UC5MqhxfGwksL2ze71gNSCAw',
     handle: 'minutecryptic'
-  },
-  'madisoncanread': {
-    channelId: 'UCrLfsz2RzNJkSW49YAJH0EQ',
-    handle: 'madisoncanread'
   },
   'fatboymatt': {
     channelId: 'UCxPOBnMX5H7LG3CuqIj65sA',
