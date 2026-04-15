@@ -100,10 +100,6 @@ const FEED_CONFIGS = {
     channelId: 'UCwHwDuNd9lCdA7chyyquDXw',
     handle: 'breadonpenguins'
   },
-  'wired': {
-    channelId: 'UCftwRNsjfRo08xYE31tkiyw',
-    handle: 'wired'
-  },
   'bria.stuart': {
     channelId: 'UCP0MYCuXPXwZntWNXSzV0oQ',
     handle: 'bria.stuart'
@@ -216,10 +212,6 @@ const FEED_CONFIGS = {
     channelId: 'UCTGHqw41qk_WyK3wJK7nweg',
     handle: 'Brick_Crafts'
   },
-  'brynodc': {
-    channelId: 'UCNG4L6tzJq1i8gWkbmuMoiA',
-    handle: 'brynoDC'
-  },
   'snaptocks': {
     channelId: 'UC2rfbuewqVswme9tiUPXYug',
     handle: 'snaptocks'
@@ -244,10 +236,6 @@ const FEED_CONFIGS = {
     channelId: 'UCZQVGv2GGRSOeVTQMYoru2A',
     handle: 'DanReederMusic'
   },
-  'tested': {
-    channelId: 'UCiDJtJKMICpb9B1qf7qjEOA',
-    handle: 'tested'
-  },
   'davesgarage': {
     channelId: 'UCNzszbnvQeFzObW0ghk0Ckw',
     handle: 'DavesGarage'
@@ -255,10 +243,6 @@ const FEED_CONFIGS = {
   'drloriv': {
     channelId: 'UCyld4DZKdnx-VcH0mqpOClg',
     handle: 'DrLoriV'
-  },
-  'emmymade': {
-    channelId: 'UCzqbfYjQmf9nLQPMxVgPhiA',
-    handle: 'emmymade'
   },
   'etymology_nerd': {
     channelId: 'UCNHb7I85BKnwbJF4fWBXJjA',
@@ -335,10 +319,6 @@ const FEED_CONFIGS = {
   'drrachelbarr': {
     channelId: 'UCC6wU8VRgIYizEjVvTdalMQ',
     handle: 'DrRachelBarr'
-  },
-  'rottenmangopod': {
-    channelId: 'UCZnXNjnBhrrmvx3eDO_2z9w',
-    handle: 'rottenmangopod'
   },
   'rottentomatoestrailers': {
     channelId: 'UCi8e0iOVk1fEOogdfu4YgfA',
@@ -645,10 +625,6 @@ const FEED_CONFIGS = {
   'techworldwithnana': {
     channelId: 'UCdngmbVKX1Tgre699-XLlUA',
     handle: 'techworldwithnana'
-  },
-  'theinternetreviewed': {
-    channelId: 'UCQFXq97bgp86MMny1f-oYFA',
-    handle: 'theinternetreviewed'
   },
   'thisoldhouse': {
     channelId: 'UCUtWNBWbFL9We-cdXkiAuJA',
