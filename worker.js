@@ -8,6 +8,10 @@ const FEED_CONFIGS = {
     channelId: 'UC55ODQSvARtgSyc8ThfiepQ',
     handle: 'samwitteveenai'
   },
+  'baseballdoesntexist': {
+    channelId: 'UCXjvsikVclbNRGRlzr8jTEg',
+    handle: 'baseballdoesntexist'
+  },
   'lauriewired': {
     channelId: 'UCJXa3_WNNmIpewOtCHf3B0g',
     handle: 'lauriewired'
