@@ -12,6 +12,10 @@ const FEED_CONFIGS = {
     channelId: 'UCXjvsikVclbNRGRlzr8jTEg',
     handle: 'baseballdoesntexist'
   },
+  'intheworldofai': {
+    channelId: 'UC2WmuBuFq6gL08QYG-JjXKw',
+    handle: 'intheworldofai'
+  },
   'lauriewired': {
     channelId: 'UCJXa3_WNNmIpewOtCHf3B0g',
     handle: 'lauriewired'
