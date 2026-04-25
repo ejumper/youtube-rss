@@ -24,6 +24,10 @@ const FEED_CONFIGS = {
     channelId: 'UCXHLQqkgmXUWOciMl4S1ztw',
     handle: 'thomcode'
   },
+  'timcarambat': {
+    channelId: 'UC6N_qOUJ78rJRxw7Kie4dXw',
+    handle: 'timcarambat'
+  },
   'davidhartley94': {
     channelId: 'UCydX8ueOwv5_bvd7Uj0HBHw',
     handle: 'davidhartley94'
