@@ -652,7 +652,7 @@ const DEFAULT_CONFIG = {
 
 // Invidious instances - change ACTIVE_INVIDIOUS_INSTANCE and SECONDARY_INVIDIOUS_INSTANCE to swap
 const INVIDIOUS_INSTANCES = {
-  'yewtu': 'https://yewtu.be',
+  'yewtu': 'https://tube.halfab.net',
   'nadeko': 'https://inv.nadeko.net',
   'f5si': 'https://invidious.f5.si',
   'nerdvpn': 'https://invidious.nerdvpn.de',
