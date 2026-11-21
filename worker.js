@@ -652,7 +652,7 @@ const DEFAULT_CONFIG = {
 
 // Invidious instances - change ACTIVE_INVIDIOUS_INSTANCE and SECONDARY_INVIDIOUS_INSTANCE to swap
 const INVIDIOUS_INSTANCES = {
-  'yewtu': 'https://tube.halfab.net',
+  'tube': 'https://tube.halfab.net',
   'nadeko': 'https://inv.nadeko.net',
   'f5si': 'https://invidious.f5.si',
   'nerdvpn': 'https://invidious.nerdvpn.de',
@@ -660,10 +660,10 @@ const INVIDIOUS_INSTANCES = {
 };
 
 // Main instance: used for feed links (with embed mode and parameters)
-const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.yewtu;
+const ACTIVE_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.tube;
 
 // Secondary instance: used for description fallback link (simple watch page)
-const SECONDARY_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nadeko;
+const SECONDARY_INVIDIOUS_INSTANCE = INVIDIOUS_INSTANCES.nerdvpn;
 
 export default {
   async fetch(request, env) {
